@@ -1,0 +1,75 @@
+ 1 {
+ 2   "$id": "http://52.191.254.38/desafio/produtos", 
+ 3   "type": "array", 
+ 4   "definitions": {}, 
+ 5   "$schema": "http://json-schema.org/draft-07/schema#", 
+ 6   "items": {
+ 7     "$id": "http://52.191.254.38/desafio/produtos/items", 
+ 8     "type": "object", 
+ 9     "properties": {
+10       "id": {
+11         "$id": "http://52.191.254.38/desafio/produtos/items/properties/id", 
+12         "type": "string", 
+13         "title": "The Id Schema ", 
+14         "default": "", 
+15         "examples": [
+16           "1"
+17         ]
+18       }, 
+19       "nome": {
+20         "$id": "http://52.191.254.38/desafio/produtos/items/properties/nome", 
+21         "type": "string", 
+22         "title": "The Nome Schema ", 
+23         "default": "", 
+24         "examples": [
+25           "Chocolate"
+26         ]
+27       }, 
+28       "descricao": {
+29         "$id": "http://52.191.254.38/desafio/produtos/items/properties/descricao", 
+30         "type": "string", 
+31         "title": "The Descricao Schema ", 
+32         "default": "", 
+33         "examples": [
+34           "Chocolate ao leite"
+35         ]
+36       }, 
+37       "valor_venda": {
+38         "$id": "http://52.191.254.38/desafio/produtos/items/properties/valor_venda", 
+39         "type": "string", 
+40         "title": "The Valor_venda Schema ", 
+41         "default": "", 
+42         "examples": [
+43           "2.00"
+44         ]
+45       }, 
+46       "estoque": {
+47         "$id": "http://52.191.254.38/desafio/produtos/items/properties/estoque", 
+48         "type": "string", 
+49         "title": "The Estoque Schema ", 
+50         "default": "", 
+51         "examples": [
+52           "10.00"
+53         ]
+54       }, 
+55       "endereco_foto": {
+56         "$id": "http://52.191.254.38/desafio/produtos/items/properties/endereco_foto", 
+57         "type": "string", 
+58         "title": "The Endereco_foto Schema ", 
+59         "default": "", 
+60         "examples": [
+61           "teste"
+62         ]
+63       }, 
+64       "codigo_barras": {
+65         "$id": "http://52.191.254.38/desafio/produtos/items/properties/codigo_barras", 
+66         "type": "string", 
+67         "title": "The Codigo_barras Schema ", 
+68         "default": "", 
+69         "examples": [
+70           "78912344412"
+71         ]
+72       }
+73     }
+74   }
+75 }

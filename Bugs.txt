@@ -1,0 +1,19 @@
+Defeitos encontrados:
+Forgot Password não encaminha para a tela da funcionalidade, exibindo msg de senha invalida
+Na lista de clientes ao clicar nos botoes de ativo e desativo aparece o scrool da table
+O sistema permite que o usuário digite no campo nome um valor com mtos caracteres, impossibilitando o cadasto do cliente. Msg não é exibida
+Sistema permite cliente com mesmo nome
+Sistema permite cadastro de mais de um cliente com mesmo cpf
+Sistema não valida se o CPF é um valor válido
+Sistema permite cadastrar um clinte com o saldo em branco, sendo que o campo é obrigatório
+Ao realizar uma pesquisa o sistema está atualizando toda a tela, reduzindo o tempo de resposta ao usuário.
+Botões de Edição na tela de visualizar "Cancelar" e "Alterar"
+Na funcionalidade de pesquisa os campos estão indicados como obrigatórios "*", mas é permitido pesquisar todos os clientes se os campos estiverem em branco
+Funcionalidade de Excluir cliente, leva o usuário para a tela de alterar cliente
+Ao pesquisar um cliente ainda não cadastrado, o sistema retorna a table vazia, porém não exibi mensagem de cliente não encontrado
+Clincando em excluir, abre a tela de alterar cliente, clicando em limpar o sistema atualizar o cliente com sucesso.
+Ao aparecer a tela de transação realizada com sucesso, o sistema está resetando o campo de cliente, valor permanece preenchido
+Na tela de visualizao transação, o sistema está resetando o campo de cliente, valor permanece preenchido
+Na tela de visualizar transação, o botão possui o texto "Cancelar", podendo ser fechar ou voltar
+Na funcionalidade de listar transaçoes, ao escolher um cliente(com transação cadastrada) e clicar em pesquisa, o sistema não retorna a transação,
+Possível realizar transações que ultrapasse o saldo do cliente.

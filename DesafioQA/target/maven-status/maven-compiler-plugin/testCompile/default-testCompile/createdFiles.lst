@@ -1,0 +1,7 @@
+br\com\conductor\DesafioQA\testFrontEnd\RealizarLoginSistema.class
+br\com\conductor\DesafioQA\testFrontEnd\CadastrarCliente.class
+br\com\conductor\DesafioQA\testBackEnd\testBackEndAPI.class
+br\com\conductor\DesafioQA\testFrontEnd\ListarTransacao.class
+br\com\conductor\DesafioQA\AppTest.class
+br\com\conductor\DesafioQA\testFrontEnd\CadastrarTransicao.class
+br\com\conductor\DesafioQA\testFrontEnd\ListarClientes.class

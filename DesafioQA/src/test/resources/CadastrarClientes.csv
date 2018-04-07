@@ -1,0 +1,8 @@
+testCadastrarClienteComSucesso, nome,cpf,saldo
+							  ,Angelina Maria,05122292020,1200
+testCadastrarClienteComCampoNomeEmBranco,nome,cpf,saldo
+									 , ,09273826781,2500									 
+testCadastrarClienteComCampoCPFEmBranco,nome,cpf,saldo
+									 ,Joao Batista, ,26530
+testCadastrarClienteComCampoSaldoEmBranco,nome,cpf,saldo
+									 ,Julio Souza,79002871819, 										 

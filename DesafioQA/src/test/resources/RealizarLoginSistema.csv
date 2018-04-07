@@ -1,0 +1,5 @@
+testEfetuarloginSistemaComUsuarioValido,username,password,message
+                                       ,admin,admin,Bem vindo ao Desafio                                   
+testEfetuarloginSistemaComUsuarioInvalido,username,password,message
+									   ,administrator,admin,Credenciais inválidas
+									   ,admin,password,Credenciais inválidas

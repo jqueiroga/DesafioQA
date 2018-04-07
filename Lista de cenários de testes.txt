@@ -1,0 +1,47 @@
+Cenários de testes.
+
+UC001 - Login ao Sistema
+FA001 - Acessar opção de "forgot password?"
+FP001 - Realizar login com dados válido
+FE001 - Realizar login com dados inválidos
+FE002 - Realizar login com dados em branco
+
+UC002 - Logout do Sistema
+FP001 - Sair da aplicação
+
+UC003 - Cadastrar cliente
+FP001 - Cadastro do cliente
+FA001 - Limpar cadastro
+FA002 - Cancelar cadastro
+FE001 - Cadastrar cliente com campos obrigatórios em branco
+FE002 - Cadastrar cliente com CPF Inválido
+FE003 - Cadastrar clientes duplicados
+FE004 - Cadastrar cliente com campo nome com valor extenso
+FE005 - Cadastrar cliente com campo saldo com valor extenso
+
+
+UC004 - Listar Cliente
+FP001 - Listar clintes cadastrados
+FA001 - Pesquisa cliente
+FA002 - Limpar Base
+FA003 - Filtrar clientes bloqueados
+FA004 - Listar clientes Ativos
+FA005 - Detalhar cliente
+FA006 - Excluir cliente
+FE001 - Cliente não Encontrado
+FE002 - Pesquisar cliente com data de vencimento inválida
+
+UC005 - Cadastrar transição
+FP001 - Casdastro de transição
+FA001 - Cancelar cadastro de transição
+FE001 - Cadastrar transição com valor em branco
+FE002 - Cadastrar transição sem escolher cliente
+FE003 - Cadastrar transição com um valor maior que o saldo do cliente
+
+UC006 - Listar Transações
+FP001 - Listar Transações cadastrados
+FA001 - Pesquisa transição por cliente
+FA002 - Detalhar transição
+FE001 - Transição não Encontrado
+
+
